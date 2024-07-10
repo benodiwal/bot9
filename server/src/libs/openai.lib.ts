@@ -29,6 +29,10 @@ class OpenAIService {
       },
       {
         role: 'system',
+        content: 'Use emojis in messages',
+      },
+      {
+        role: 'system',
         content: 'you should understand the tone of the user and talk in the same tone'
       }
     ];
@@ -40,7 +44,7 @@ class OpenAIService {
     });
 
     const completion = await this.#client.chat.completions.create({
-      model: 'gpt-3.5-turbo-0613',
+      model: 'gpt-3.5-turbo',
       messages: messages,
       tools: [
         {

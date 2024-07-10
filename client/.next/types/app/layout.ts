@@ -1,4 +1,4 @@
-// File: /home/user/work/bot9-ai/client/src/app/layout.tsx
+// File: /home/user/work/bot9/client/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
